@@ -13,12 +13,12 @@
   <title>Bootstrap Theme</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="home">
   <!-- START HERE -->
   <!-- navigation -->
-  <nav class="  navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <nav class="  navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
     <div class="container">
-      <a href="index.html" class="navbar-brand">LoopLAB</a>
+      <a href="index.html" class="navbar-brand">SohoLAB</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class=" navbar-toggler-icon"></span>
       </button>
@@ -116,7 +116,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img src="img/explore-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+          <img src="img/explore.jpeg" alt="" class="img-fluid mb-3 rounded-circle">
         </div>
         <div class="col-md-6">
           <h3>Explore and connect</h3>
@@ -143,6 +143,139 @@
   </section>
 
 
+  <!-- Create Head section -->
+  <section id="create-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h2 class="display-4">Create</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quod! Distinctio, porro, ipsum! Magnam nemo dolore vitae optio totam, quo?</p>
+          <a href="" class="btn btn-outline-light">Find out more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- create secondary section -->
+
+  <section id="create-section" class=" py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-2">
+          <img src="img/create.jpeg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6 order-1">
+          <h3>Create your passion</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus aspernatur, optio voluptatem cum alias unde magnam molestiae cupiditate, tenetur maxime!</p>
+          <div class="d-flex ">
+            <div class="align-self-start p-4">
+              <span><i class="fas fa-check fa-2x"></i></span>
+            </div>
+            <div class="align-self-end p-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, odit, illum optio nam ullam cupiditate.
+            </div>
+          </div>
+          <div class="d-flex ">
+            <div class="align-self-start p-4">
+              <span><i class="fas fa-check fa-2x"></i></span>
+            </div>
+            <div class="align-self-end p-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, odit, illum optio nam ullam cupiditate.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Share Head section -->
+  <section id="share-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h2 class="display-4">Share</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, quod! Distinctio, porro, ipsum! Magnam nemo dolore vitae optio totam, quo?</p>
+          <a href="" class="btn btn-outline-light">Find out more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- share secondary section -->
+
+  <section id="share-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h3>Share what you create</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus aspernatur, optio voluptatem cum alias unde magnam molestiae cupiditate, tenetur maxime!</p>
+          <div class="d-flex ">
+            <div class="align-self-start p-4">
+              <span><i class="fas fa-check fa-2x"></i></span>
+            </div>
+            <div class="align-self-end p-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, odit, illum optio nam ullam cupiditate.
+            </div>
+          </div>
+          <div class="d-flex ">
+            <div class="align-self-start p-4">
+              <span><i class="fas fa-check fa-2x"></i></span>
+            </div>
+            <div class="align-self-end p-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, odit, illum optio nam ullam cupiditate.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- FOOTER -->
+
+<footer id="main-footer" class="bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center py-4">
+        <h3>SohoLAB</h3>
+        <P>copyright  &copy; <span id="year"></span></P>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- contact modal -->
+<div class="modal fade text-dark" id="contactModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Contact us</h5>
+        <button class=" close" data-dismiss="modal"><Span>&times;</Span></button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message"  class="form-control"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary btn-block">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -156,6 +289,20 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+    //init scrollspy
+    $('body').scrollspy({target: '#main-nav'});
+    //smoothe scroll
+    $('#main-nav a').on('click', function(event){
+      if(this.hash !== ""){
+        event.preventDefault();
+        const hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        },800, function(){
+          window.location.hash = hash;
+        });
+      }
+    });
   </script>
 </body>
 

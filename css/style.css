@@ -8,7 +8,7 @@ body{
   opacity:0.8;
 }
 #home-section{
-  background: url(../img/home.jpg);
+  background: url(../img/adult-home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -28,7 +28,7 @@ body{
 #home-section .card-form{
   opacity: 0.8;
 }
-#home-section .fas{
+#home-section .fas, #create-section .fas{
   color: #008ed6;
   background: white;
   padding: 5px;
